@@ -36,7 +36,7 @@ namespace WpfApp2
             int b = rnd.Next(256);
             int c = rnd.Next(256);
             int d = rnd.Next(256);
-            // оно хотело получить свой byte я дал byte, int не оно хотело хз почему 
+            // оно хотело получить свой byte я дал byte, int оно не хотело хз почему 
             byte color1 = Convert.ToByte(a);
             byte color2 = Convert.ToByte(b);
             byte color3 = Convert.ToByte(c);
