@@ -26,6 +26,15 @@ namespace WpfApp2
 
         }
 
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void togbut_Click(object sender, RoutedEventArgs e)
+        {
+            //togbut.Visibility = Visibility.Collapsed;
+        }
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
