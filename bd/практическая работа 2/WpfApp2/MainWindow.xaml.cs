@@ -29,19 +29,11 @@ namespace WpfApp2
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            // создаем рандом 
             Random rnd = new Random();
-            // next(256) он запишет значение от 0 до 255 
-            int a = rnd.Next(256);
-            int b = rnd.Next(256);
-            int c = rnd.Next(256);
-            int d = rnd.Next(256);
-            // оно хотело получить свой byte я дал byte, int оно не хотело хз почему 
-            byte color1 = Convert.ToByte(a);
-            byte color2 = Convert.ToByte(b);
-            byte color3 = Convert.ToByte(c);
-            byte color4 = Convert.ToByte(d);
-            // тут так надо
+            byte color1 = Convert.ToByte(rnd.Next(256));
+            byte color2 = Convert.ToByte(rnd.Next(256));
+            byte color3 = Convert.ToByte(rnd.Next(256));
+            byte color4 = Convert.ToByte(rnd.Next(256));
             button3.Background = new SolidColorBrush(Color.FromArgb(color1, color2, color3, color4));
         }
     }
