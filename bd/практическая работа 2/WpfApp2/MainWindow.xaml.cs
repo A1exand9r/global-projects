@@ -33,6 +33,8 @@ namespace WpfApp2
 
         private void togbut_Click(object sender, RoutedEventArgs e)
         {
+            bool toggled;
+
             //togbut.Visibility = Visibility.Collapsed;
         }
 

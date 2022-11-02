@@ -19,8 +19,8 @@
         </Grid.ColumnDefinitions>
 
         <Button x:Name="button" Grid.Column="0" Click="button_Click"/>
-        
-        <ToggleButton x:Name="togbut" Grid.Column="1" Click="togbut_Click"/>
+
+        <ToggleButton x:Name="togbut" Grid.Column="1" Click="togbut_Click" IsThreeState="True"/>
 
         <Button x:Name="button3" Grid.Column="2" Click="button3_Click" Background="AliceBlue"/>
         
