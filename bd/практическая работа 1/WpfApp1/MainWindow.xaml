@@ -28,33 +28,33 @@
         <TextBlock Grid.Column="1" TextWrapping="Wrap" Text="Заполните профиль" VerticalAlignment="Center" Foreground="#FFED1010" FontWeight="Bold" FontSize="20" Grid.ColumnSpan="3" TextAlignment="Center"/>
 
 
-
+        
         <TextBlock HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Фамилия" FontSize="16" VerticalAlignment="Center" TextAlignment="Center"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="250" TextAlignment="Center" Height="30"/>
+        <TextBox Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" Text="" TextAlignment="Center"/>
 
         <TextBlock HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="Имя" FontSize="16" VerticalAlignment="Center" TextAlignment="Center"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="250" TextAlignment="Center" Height="30"/>
+        <TextBox Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" Text="" TextAlignment="Center"/>
 
         <TextBlock HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="Отчество" FontSize="16" VerticalAlignment="Center" TextAlignment="Center"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="250" TextAlignment="Center" Height="30"/>
+        <TextBox Grid.Column="1" Grid.Row="3" TextWrapping="Wrap" Text="" TextAlignment="Center"/>
 
         <TextBlock HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="Адрес" FontSize="16" VerticalAlignment="Center" TextAlignment="Center"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="250" TextAlignment="Center" Height="30"/>
+        <TextBox Grid.Column="1" Grid.Row="4" TextWrapping="Wrap" Text="" TextAlignment="Center"/>
 
         <TextBlock HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Телефон" FontSize="16" VerticalAlignment="Center" TextAlignment="Center" Grid.Column="2"/>
-        <TextBox Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="250" TextAlignment="Center" Height="30"/>
-
+        <TextBox Grid.Column="3" Grid.Row="1" TextWrapping="Wrap" Text="" TextAlignment="Center"/>
+        
         <TextBlock HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="СНИЛС" FontSize="16" VerticalAlignment="Center" TextAlignment="Center" Grid.Column="2"/>
-        <TextBox Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="250" TextAlignment="Center" Height="30"/>
+        <TextBox Grid.Column="3" Grid.Row="2" TextWrapping="Wrap" Text="" TextAlignment="Center"/>
 
         <TextBlock HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="Место работы" FontSize="14" VerticalAlignment="Center" TextAlignment="Center" Grid.Column="2"/>
-        <TextBox Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="250" TextAlignment="Center" Height="30"/>
+        <TextBox Grid.Column="3" Grid.Row="3" TextWrapping="Wrap" Text="" TextAlignment="Center"/>
 
         <TextBlock HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="Дата рождения" FontSize="14" VerticalAlignment="Center" TextAlignment="Center" Grid.Column="2"/>
-        <TextBox Grid.Column="3" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="250" TextAlignment="Center" Height="30"/>
+        <TextBox Grid.Column="3" Grid.Row="4" TextWrapping="Wrap" Text="" TextAlignment="Center"/>
 
-        <Button Grid.Column="1" Content="Регистрация" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Height="50" Width="240" Background="{x:Null}" BorderBrush="#FFFA0000" BorderThickness="2,2,2,2" Foreground="Red" FontSize="20" FontWeight="Bold"/>
-        <Button Grid.Column="3" Content="Выход" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Height="50" Width="240" Background="{x:Null}" BorderBrush="#FFFA0000" BorderThickness="2,2,2,2" Foreground="Red" FontSize="24" FontWeight="Bold"/>
+        <Button Grid.Column="1" Content="Регистрация" Grid.Row="6" Background="{x:Null}" BorderBrush="#FFFA0000" Margin="5" BorderThickness="2" Foreground="Red" FontSize="20" FontWeight="Bold"/>
+        <Button Grid.Column="3" Content="Выход" Grid.Row="6" Background="{x:Null}" BorderBrush="#FFFA0000" BorderThickness="2,2,2,2" Foreground="Red" FontSize="24" FontWeight="Bold"/>
 
 
     </Grid>
