@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.RightsManagement;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -26,16 +27,15 @@ namespace WpfApp2
 
         }
 
+        private void togbut_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
         private void button_Click(object sender, RoutedEventArgs e)
         {
 
-        }
-
-        private void togbut_Click(object sender, RoutedEventArgs e)
-        {
-            bool toggled;
-
-            //togbut.Visibility = Visibility.Collapsed;
+            MessageBox.Show("ToggleButton в положении", Convert.ToString(togbut.IsChecked));
         }
 
         private void button3_Click(object sender, RoutedEventArgs e)
@@ -47,5 +47,6 @@ namespace WpfApp2
             byte color4 = Convert.ToByte(rnd.Next(256));
             button3.Background = new SolidColorBrush(Color.FromArgb(color1, color2, color3, color4));
         }
+
     }
 }
