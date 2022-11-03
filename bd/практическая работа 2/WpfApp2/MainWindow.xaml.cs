@@ -34,8 +34,20 @@ namespace WpfApp2
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
+            if (togbut.IsChecked == true)
+            {
+                MessageBox.Show("ToggleButton в положении Checked");
+            }
+            else if (togbut.IsChecked == false)
+            {
+                MessageBox.Show("ToggleButton в положении Unchecked");
 
-            MessageBox.Show("ToggleButton в положении", Convert.ToString(togbut.IsChecked));
+            }
+            else
+            {
+                MessageBox.Show("ToggleButton в положении Intermediate");
+            }
+            
         }
 
         private void button3_Click(object sender, RoutedEventArgs e)
