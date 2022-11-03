@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\drdov\Desktop\global-projects\bd\практическая работа 2\WpfApp2\obj\Debug\net6.0-windows\
+C:\Users\drdov\Desktop\global-projects\bd\практическая работа 2\WpfApp2\obj\Release\net6.0-windows\
 WpfApp2
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\drdov\Desktop\global-projects\bd\практическая работа 2\WpfApp2\App.xaml
 11407045341
 
