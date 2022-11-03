@@ -7,6 +7,31 @@
         mc:Ignorable="d"
         Title="Практическая работа 3" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"></ColumnDefinition>
+            <ColumnDefinition Width="315*"></ColumnDefinition>
+            <ColumnDefinition Width="47*"></ColumnDefinition>
+            <ColumnDefinition Width="400*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Первое число" VerticalAlignment="Center" TextAlignment="Center" FontSize="20"/>
+        <TextBox Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" Text = ""/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" Text="Второе число" VerticalAlignment="Center" TextAlignment="Center" FontSize="20"/>
+        <TextBox Grid.Column="1" Grid.Row="6" TextWrapping="Wrap" Text = ""/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="8" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Center" TextAlignment="Center" FontSize="20"/>
+
+
     </Grid>
 </Window>
