@@ -24,5 +24,11 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void TextBox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // TextBox textBox1 = (TextBox)sender;
+            // MessageBox.Show(textBox1.Text);
+        }
     }
 }
