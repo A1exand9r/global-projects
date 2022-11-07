@@ -41,6 +41,10 @@
         <RadioButton x:Name="division" Grid.Column="3" Content="Деление" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="6" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="remainsd" Grid.Column="3" Content="Остаток от деления" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="7" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton />
+        
+        
+        
+        
 
 
 
