@@ -29,13 +29,18 @@
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Первое число" VerticalAlignment="Center" TextAlignment="Center" FontSize="20"/>
         <TextBox x:Name="TextBox1" TextChanged="TextBox1_TextChanged" Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" Text = "" />
         
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" Text="Второе число" VerticalAlignment="Center" TextAlignment="Center" FontSize="20"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" Text="Второе число" VerticalAlignment="Center" TextAlignment="Center" FontSize="15"/>
         <TextBox Grid.Column="1" Grid.Row="6" TextWrapping="Wrap" Text = ""/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="8" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Center" TextAlignment="Center" FontSize="20"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="8" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Center" TextAlignment="Center" FontSize="15"/>
         <TextBox x:Name="result" Grid.Column="1" Grid.Row="9" TextWrapping="Wrap" Text = ""/>
-        <RadioButton x:Name="addition"  Grid.Column="3" Content="сложение" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center"/>
-        <RadioButton x:Name="difference"  Grid.Column="3" Content="разность" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center"/>
         
+        
+        <RadioButton x:Name="addition"  Grid.Column="3" Content="Сложение" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="3" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton x:Name="difference"  Grid.Column="3" Content="Вычитание" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="4" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton x:Name="multiplication" Grid.Column="3" Content="Умножение" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="5" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton x:Name="division" Grid.Column="3" Content="Деление" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="6" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton x:Name="remainsd" Grid.Column="3" Content="Остаток от деления" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="7" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton />
 
 
 
