@@ -34,9 +34,8 @@
         
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="8" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Center" TextAlignment="Center" FontSize="15"/>
         <TextBlock x:Name="resulttextblock" Grid.Column="1" Grid.Row="9" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
-        <TextBox x:Name="result" Grid.Column="1" Grid.Row="10" TextWrapping="Wrap" Text = ""/>
-        
-        
+
+
         <RadioButton x:Name="addition" Grid.Column="3" Content="Сложение" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="3" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="difference"  Grid.Column="3" Content="Вычитание" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="4" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
         <RadioButton x:Name="multiplication" Grid.Column="3" Content="Умножение" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="5" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
