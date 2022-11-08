@@ -25,12 +25,48 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void TextBox1_TextChanged(object sender, TextChangedEventArgs e)
+        public void TextBox1_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
-        private void TextBox2_TextChanged(object sender, TextChangedEventArgs e)
+        internal void TextBox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void addition_Click(object sender, RoutedEventArgs e)
+        {
+            int num1 = Convert.ToInt32(TextBox1.Text);
+            int num2 = Convert.ToInt32(TextBox2.Text);
+            resulttextblock.Text = Convert.ToString(num1 + num2);
+        }
+
+        private void difference_Click(object sender, RoutedEventArgs e)
+        {
+            int num1 = Convert.ToInt32(TextBox1.Text);
+            int num2 = Convert.ToInt32(TextBox2.Text);
+            resulttextblock.Text = Convert.ToString(num1 - num2);
+        }
+
+        private void multiplication_Click(object sender, RoutedEventArgs e)
+        {
+            int num1 = Convert.ToInt32(TextBox1.Text);
+            int num2 = Convert.ToInt32(TextBox2.Text);
+            resulttextblock.Text = Convert.ToString(num1 * num2);
+        }
+
+        private void division_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void remainsd_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void degree_Click(object sender, RoutedEventArgs e)
         {
 
         }

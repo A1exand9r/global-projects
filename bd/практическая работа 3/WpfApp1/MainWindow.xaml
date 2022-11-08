@@ -20,12 +20,14 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="40*"></ColumnDefinition>
             <ColumnDefinition Width="315*"></ColumnDefinition>
             <ColumnDefinition Width="47*"></ColumnDefinition>
             <ColumnDefinition Width="400*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Первое число" VerticalAlignment="Center" TextAlignment="Center" FontSize="15"/>
         <TextBox x:Name="TextBox1"  TextChanged="TextBox1_TextChanged" Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" Text = "" />
         
@@ -35,13 +37,13 @@
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="8" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Center" TextAlignment="Center" FontSize="15"/>
         <TextBlock x:Name="resulttextblock" Grid.Column="1" Grid.Row="9" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
 
+        <RadioButton x:Name="addition" Click="addition_Click" Grid.Column="3" Content="Сложение" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="3" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton x:Name="difference" Click="difference_Click" Grid.Column="3" Content="Вычитание" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="4" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton x:Name="multiplication" Click="multiplication_Click" Grid.Column="3" Content="Умножение" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="5" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton x:Name="division" Click="division_Click" Grid.Column="3" Content="Деление" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="6" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton x:Name="remainsd" Click="remainsd_Click" Grid.Column="3" Content="Остаток от деления" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="7" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        <RadioButton x:Name="degree" Click="degree_Click" Grid.Column="3" Content="Возведение в степень" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="8" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
 
-        <RadioButton x:Name="addition" Grid.Column="3" Content="Сложение" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="3" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
-        <RadioButton x:Name="difference"  Grid.Column="3" Content="Вычитание" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="4" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
-        <RadioButton x:Name="multiplication" Grid.Column="3" Content="Умножение" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="5" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
-        <RadioButton x:Name="division" Grid.Column="3" Content="Деление" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="6" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
-        <RadioButton x:Name="remainsd" Grid.Column="3" Content="Остаток от деления" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="7" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
-        <RadioButton x:Name="degree" Grid.Column="3" Content="Возведение в степень" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="8" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
-        <Border BorderBrush="Black" BorderThickness="3" Grid.Column="3" Grid.Row="2" Grid.RowSpan="7" CornerRadius="30"/>
+        <Border BorderBrush="Black" BorderThickness="3" Grid.Column="3" Grid.Row="3" Grid.RowSpan="6" CornerRadius="30"/>
     </Grid>
 </Window>
