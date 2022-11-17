@@ -28,9 +28,6 @@ def slov():
         print('Давай по новой')
         slov()
 
-
-
-
-
 if __name__ == '__main__':
     slov()
+
