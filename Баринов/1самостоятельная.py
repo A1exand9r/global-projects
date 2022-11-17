@@ -8,9 +8,29 @@
 # 3 создать картеж со списком: фамилия, имя, отчество, возраст, пол, номер группы, оценки. (ключи на латинице)
 # 4 создать массив журнал (16 дат занятий)
 
-def inp(text):
-    print(text)
+def text_input():
+    text = input()
 
+    return text
+
+def slov():
+    student = {'surname': '', 'name': '', 'patronymic': '', 'age': '', 'floor': '', 'group number': '', 'estimation': ''}
+
+    for i in student:
+        print('Введите', i)
+        student[i] = text_input()
     
-if __name__ == '__Main':
-    inp(input)
+    if int(student['estimation']) <= 5 and int(student['estimation']) >= 3:
+        print('Поехали дальше')
+        print(student)
+        return student
+    else:
+        print('Давай по новой')
+        slov()
+
+
+
+
+
+if __name__ == '__main__':
+    slov()
